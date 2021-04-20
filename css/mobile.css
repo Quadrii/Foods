@@ -117,6 +117,9 @@
         font-size: 15px;
         line-height: 22px;
     }
+    .flex-container {
+        align-items: center;
+    }
     .flexItems img {
         height: 250px;
     }
@@ -252,6 +255,9 @@
         font-size: 15px;
         line-height: 22px;
     }
+    .flex-container {
+        align-items: center;
+    }
     .flexItems img {
         height: 250px;
     }
@@ -385,6 +391,9 @@
         font-size: 15px;
         line-height: 22px;
     }
+    .flex-container {
+        align-items: center;
+    }
     .flexItems img {
         height: 250px;
     }
@@ -474,7 +483,7 @@
 
 
 @media only screen and (max-width: 320px) {
-    .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo{
+    .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo, .forMobile{
         min-width: 100%;
     }
     .navbar {
@@ -513,6 +522,9 @@
     .paragraph {
         font-size: 15px;
         line-height: 22px;
+    }
+    .flexItems {
+        text-align: center;
     }
     .flexItems img {
         height: 250px;
@@ -583,7 +595,7 @@
         margin: 5px;
     }
     .appImg {
-        width: 66px;
+        width: 62px;
     }
     .appContent {
         padding: 20px 40px;
