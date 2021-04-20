@@ -50,10 +50,16 @@
     .dish {
         height: 170px;
     }
-    .Niche {
+    .orderHeading {
+        top: 75%;
+    }
+    .appwrap {
+        height: 474px;
+    }
+    /* .Niche {
         font-size: 40px;
         line-height: 50px;
-    }
+    } */
     .phoneApp {
         width: 350px;
         height: 434px;
@@ -74,11 +80,8 @@
     .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo{
         min-width: 100%;
     }
-    .makeOrder {
-        text-align: center;
-    }
-    .IntroImg {
-        margin-left: 65px;
+    .navbar {
+        margin-top: 20px;
     }
     .navbar-brand img {
         width: 150px;
@@ -86,14 +89,15 @@
     .nav-item {
         text-align: center;
     }
+    .IntroImg {
+        text-align: center;
+        margin-left: 70px;
+    }
     .flex-container {
         align-items: center;
     }
     .showImgWeb {
         display: none;
-    }
-    .sideImgWrap {
-        margin-left: 60px;
     }
     .bigItem {
         min-width: 100%;
@@ -112,7 +116,6 @@
     .paragraph {
         font-size: 15px;
         line-height: 22px;
-        text-align: center;
     }
     .flexItems img {
         height: 250px;
@@ -125,24 +128,40 @@
     .orderHeading {
         top: 40%;
     }
-    .aboutFlex {
+    .appContent {
         text-align: center;
+        margin-left: 30px;
     }
-    .dishWrap {
+    .aboutFlex {
         text-align: center;
     }
     .showImgMobile {
         display: block;
     }
-    .food2potContact {
-        height: 750px;
-        background-repeat: no-repeat;
+    .food2potDish {
+        text-align: center;
+    }
+    .sideImgWrap {
+        text-align: center;
+        margin-left: 55px;
     }
     .dish {
-        height: 100px;
+        height: 90px;
+    }
+    .addressWrap {
+        height: 700px;
+    }
+    .addressContact li {
+        font-size: 14px
     }
     .addressContact li {
         text-align: center;
+    }
+    .forWeb {
+        display: none;
+    }
+    .forMobile {
+        display: block;
     }
     .mobileContainer {
         padding-left: 0 !important;
@@ -152,35 +171,40 @@
         background-repeat: no-repeat;
         margin-bottom: 0;
     }
+    .food2potAppWrap {
+        text-align: center;
+        margin-left: -35px;
+    }
     .appwrap {
         border-radius: unset;
+        background-position: center;
     }
-    .appBtnWrap {
-        text-align: center;
+    .NicheMobile {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        color: #fff;
     }
     .Niche {
-        font-size:30px;
-        line-height: 40px;
+        display: none;
+    }
+    .appStores li {
+        margin: 5px;
     }
     .appImg {
-        width: 125px;
+        width: 66px;
     }
     .appContent {
         padding: 20px 40px;
     }
     .phoneApp {
-        margin-left: unset;
+        margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-    footer {
-        margin-top: -25px;
-    }
+
     .footerLogoWrap img{
         width: 100px;
-    }
-    .food2potAppWrap {
-        text-align: center;
     }
 }
 
@@ -189,14 +213,18 @@
     .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo{
         min-width: 100%;
     }
-    .makeOrder {
-        text-align: center;
+    .navbar {
+        margin-top: 20px;
     }
     .navbar-brand img {
         width: 150px;
     }
     .nav-item {
         text-align: center;
+    }
+    .IntroImg {
+        text-align: center;
+        margin-left: 30px;
     }
     .flex-container {
         align-items: center;
@@ -236,21 +264,33 @@
     .aboutFlex {
         text-align: center;
     }
-    .dishWrap {
-        text-align: center;
-    }
     .showImgMobile {
         display: block;
     }
-    .food2potContact {
-        height: 750px;
-        background-repeat: no-repeat;
+    .appContent {
+        margin-left: 0;
+    }
+    .sideImgWrap {
+        text-align: center;
+        margin-left: 30px;
     }
     .dish {
-        height: 100px;
+        height: 90px;
+    }
+    .addressWrap {
+        height: 700px;
+    }
+    .addressContact li {
+        font-size: 14px
     }
     .addressContact li {
         text-align: center;
+    }
+    .forWeb {
+        display: none;
+    }
+    .forMobile {
+        display: block;
     }
     .mobileContainer {
         padding-left: 0 !important;
@@ -260,35 +300,40 @@
         background-repeat: no-repeat;
         margin-bottom: 0;
     }
+    .food2potAppWrap {
+        text-align: center;
+        margin-left: -35px;
+    }
     .appwrap {
         border-radius: unset;
+        background-position: center;
     }
-    .appBtnWrap {
-        text-align: center;
+    .NicheMobile {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        color: #fff;
     }
     .Niche {
-        font-size:30px;
-        line-height: 40px;
+        display: none;
+    }
+    .appStores li {
+        margin: 5px;
     }
     .appImg {
-        width: 125px;
+        width: 66px;
     }
     .appContent {
         padding: 20px 40px;
     }
     .phoneApp {
-        margin-left: unset;
+        margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-    footer {
-        margin-top: -25px;
-    }
+
     .footerLogoWrap img{
         width: 100px;
-    }
-    .food2potAppWrap {
-        text-align: center;
     }
 }
 
@@ -296,14 +341,18 @@
     .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo{
         min-width: 100%;
     }
-    .makeOrder {
-        text-align: center;
+    .navbar {
+        margin-top: 20px;
     }
     .navbar-brand img {
         width: 150px;
     }
     .nav-item {
         text-align: center;
+    }
+    .IntroImg {
+        text-align: center;
+        margin-left: 30px;
     }
     .flex-container {
         align-items: center;
@@ -325,6 +374,9 @@
     .about {
         padding: 20px 0;
     }
+    .appContent {
+        margin-left: 0;
+    }
     .paragraph {
         font-size: 15px;
         line-height: 22px;
@@ -343,21 +395,31 @@
     .aboutFlex {
         text-align: center;
     }
-    .dishWrap {
-        text-align: center;
-    }
     .showImgMobile {
         display: block;
     }
-    .food2potContact {
-        height: 750px;
-        background-repeat: no-repeat;
+
+    .sideImgWrap {
+        text-align: center;
+        margin-left: 30px;
     }
     .dish {
-        height: 100px;
+        height: 90px;
+    }
+    .addressWrap {
+        height: 700px;
+    }
+    .addressContact li {
+        font-size: 14px
     }
     .addressContact li {
         text-align: center;
+    }
+    .forWeb {
+        display: none;
+    }
+    .forMobile {
+        display: block;
     }
     .mobileContainer {
         padding-left: 0 !important;
@@ -367,27 +429,38 @@
         background-repeat: no-repeat;
         margin-bottom: 0;
     }
+    .food2potAppWrap {
+        text-align: center;
+        margin-left: -35px;
+    }
     .appwrap {
         border-radius: unset;
+        background-position: center;
+    }
+    .NicheMobile {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        color: #fff;
     }
     .Niche {
-        font-size:30px;
-        line-height: 40px;
+        display: none;
+    }
+    .appStores li {
+        margin: 5px;
     }
     .appImg {
-        width: 125px;
+        width: 66px;
     }
     .appContent {
         padding: 20px 40px;
     }
     .phoneApp {
-        margin-left: -45px;
+        margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-    footer {
-        margin-top: -25px;
-    }
+
     .footerLogoWrap img{
         width: 100px;
     }
@@ -398,11 +471,18 @@
     .colOne, .colTwo, .flexContentOne, .flexContentTwo, .appContentOne, .appContentTwo{
         min-width: 100%;
     }
+    .navbar {
+        margin-top: 20px;
+    }
     .navbar-brand img {
         width: 150px;
     }
     .nav-item {
         text-align: center;
+    }
+    .IntroImg {
+        text-align: center;
+        margin-left: 0;
     }
     .flex-container {
         align-items: center;
@@ -445,15 +525,30 @@
     .showImgMobile {
         display: block;
     }
-    .food2potContact {
-        height: 750px;
-        background-repeat: no-repeat;
+    .appContent {
+        margin-left: 0;
+    }
+    .sideImgWrap {
+        text-align: center;
+        margin-left: 0;
     }
     .dish {
-        height: 100px;
+        height: 90px;
+    }
+    .addressWrap {
+        height: 700px;
+    }
+    .addressContact li {
+        font-size: 14px
     }
     .addressContact li {
         text-align: center;
+    }
+    .forWeb {
+        display: none;
+    }
+    .forMobile {
+        display: block;
     }
     .mobileContainer {
         padding-left: 0 !important;
@@ -465,25 +560,32 @@
     }
     .appwrap {
         border-radius: unset;
+        background-position: center;
+    }
+    .NicheMobile {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        color: #fff;
     }
     .Niche {
-        font-size:30px;
-        line-height: 40px;
+        display: none;
+    }
+    .appStores li {
+        margin: 5px;
     }
     .appImg {
-        width: 125px;
+        width: 66px;
     }
     .appContent {
         padding: 20px 40px;
     }
     .phoneApp {
-        margin-left: -45px;
+        margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-    footer {
-        margin-top: -25px;
-    }
+
     .footerLogoWrap img{
         width: 100px;
     }
