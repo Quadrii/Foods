@@ -124,9 +124,11 @@
         top: 14%;
         font-size: 65px;
         text-align: center;
+        left:32%;
     }
     .orderHeading {
         top: 40%;
+        left: 32%;
     }
     .appContent {
         text-align: center;
@@ -257,9 +259,11 @@
         top: 14%;
         font-size: 65px;
         text-align: center;
+        left: 30%;
     }
     .orderHeading {
         top: 40%;
+        left: 30%;
     }
     .aboutFlex {
         text-align: center;
@@ -388,9 +392,11 @@
         top: 14%;
         font-size: 65px;
         text-align: center;
+        left: 30%;
     }
     .orderHeading {
         top: 40%;
+        left: 30%;
     }
     .aboutFlex {
         text-align: center;
@@ -515,9 +521,11 @@
         top: 14%;
         font-size: 65px;
         text-align: center;
+        left: 22%;
     }
     .orderHeading {
         top: 40%;
+        left: 22%;
     }
     .aboutFlex {
         text-align: center;
