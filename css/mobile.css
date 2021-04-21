@@ -93,6 +93,9 @@
         text-align: center;
         margin-left: 70px;
     }
+    .flexItems {
+        text-align: center;
+    }
     .flex-container {
         align-items: center;
     }
@@ -417,6 +420,9 @@
     }
     .flex-container {
         align-items: center;
+    }
+    .flexItems {
+        text-align: center;
     }
     .flexItems img {
         height: 250px;
