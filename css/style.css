@@ -44,7 +44,21 @@
   font-family: YanoneKaffeesatz-semiBold;
   src: url(../fonts/YanoneKaffeesatz-SemiBold.ttf);
 }
+@-webkit-keyframes rotating {
+  from{
+      -webkit-transform: rotate(0deg);
+  }
+  to{
+      -webkit-transform: rotate(360deg);
+  }
+}
 
+.rotating {
+  -webkit-animation: rotating 20s linear infinite;
+}
+.navbar-nav .nav-item.active > .nav-link, .navbar-nav .nav-item:active:focus > .nav-link, .navbar-nav .nav-item:active > .nav-link, .navbar-nav .nav-item:focus > .nav-link, .navbar-nav .nav-item:hover > .nav-link {
+  color: #000 !important;
+}
 .bsnav {
   background-color: transparent !important;
 }
