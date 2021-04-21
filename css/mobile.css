@@ -154,7 +154,10 @@
         height: 90px;
     }
     .addressWrap {
-        height: 700px;
+        border-radius: unset;
+        background-image: url(../images/IonecAddressMobileBackround.png);
+        background-position: center;
+        height: unset;
     }
     .addressContact li {
         font-size: 14px
@@ -185,6 +188,7 @@
     }
     .appwrap {
         border-radius: unset;
+        background-image: url(../images/IonecappMobileBackground.png);
         background-position: center;
         height: unset;
     }
@@ -204,7 +208,7 @@
         width: 66px;
     }
     .appContent {
-        padding: 20px 40px;
+        padding: 0 40px;
     }
     .phoneApp {
         margin-top: -45px;
@@ -292,10 +296,13 @@
         margin-left: 30px;
     }
     .dish {
-        height: 90px;
+        height: 120px;
     }
     .addressWrap {
-        height: 700px;
+        border-radius: unset;
+        background-image: url(../images/IonecAddressMobileBackround.png);
+        background-position: center;
+        height: unset;
     }
     .addressContact li {
         font-size: 14px
@@ -326,6 +333,7 @@
     }
     .appwrap {
         border-radius: unset;
+        background-image: url(../images/IonecappMobileBackground.png);
         background-position: center;
         height: unset;
     }
@@ -345,14 +353,16 @@
         width: 66px;
     }
     .appContent {
-        padding: 20px 53px;
+        padding: 0 53px;
     }
     .phoneApp {
         margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-
+    .footerParagraph {
+        font-size: 12px;
+    }
     .footerLogoWrap img{
         width: 100px;
     }
@@ -433,10 +443,13 @@
         margin-left: 30px;
     }
     .dish {
-        height: 90px;
+        height: 120px;
     }
     .addressWrap {
-        height: 700px;
+        border-radius: unset;
+        background-image: url(../images/IonecAddressMobileBackround.png);
+        background-position: center;
+        height: unset;
     }
     .addressContact li {
         font-size: 14px
@@ -467,6 +480,7 @@
     }
     .appwrap {
         border-radius: unset;
+        background-image: url(../images/IonecappMobileBackground.png);
         background-position: center;
         height: unset;
     }
@@ -486,14 +500,16 @@
         width: 66px;
     }
     .appContent {
-        padding: 20px 45px;
+        padding: 0px 45px;
     }
     .phoneApp {
         margin-top: -45px;
         width: 265px;
         height: 290px;
     }
-
+    .footerParagraph {
+        font-size: 12px;
+    }
     .footerLogoWrap img{
         width: 100px;
     }
@@ -571,10 +587,13 @@
         margin-left: 0;
     }
     .dish {
-        height: 90px;
+        height: 120px;
     }
     .addressWrap {
-        height: 700px;
+        border-radius: unset;
+        background-image: url(../images/IonecAddressMobileBackround.png);
+        background-position: center;
+        height: unset;
     }
     .addressContact li {
         font-size: 14px
@@ -601,6 +620,7 @@
     }
     .appwrap {
         border-radius: unset;
+        background-image: url(../images/IonecappMobileBackground.png);
         background-position: center;
         height: unset;
     }
@@ -627,7 +647,9 @@
         width: 265px;
         height: 290px;
     }
-
+    .footerParagraph {
+        font-size: 12px;
+    }
     .footerLogoWrap img{
         width: 100px;
     }
