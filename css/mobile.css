@@ -180,9 +180,13 @@
         text-align: center;
         margin-left: -35px;
     }
+    .appBtnWrap {
+        margin: 30px 0;
+    }
     .appwrap {
         border-radius: unset;
         background-position: center;
+        height: unset;
     }
     .NicheMobile {
         display: block;
@@ -231,6 +235,9 @@
         text-align: center;
         margin-left: 30px;
     }
+    .flexItems {
+        text-align: center;
+    }
     .flex-container {
         align-items: center;
     }
@@ -314,9 +321,13 @@
         text-align: center;
         margin-left: -35px;
     }
+    .appBtnWrap {
+        margin: 30px 0;
+    }
     .appwrap {
         border-radius: unset;
         background-position: center;
+        height: unset;
     }
     .NicheMobile {
         display: block;
@@ -334,7 +345,7 @@
         width: 66px;
     }
     .appContent {
-        padding: 20px 40px;
+        padding: 20px 53px;
     }
     .phoneApp {
         margin-top: -45px;
@@ -364,6 +375,9 @@
         text-align: center;
         margin-left: 30px;
     }
+    .flexItems {
+        text-align: center;
+    }
     .flex-container {
         align-items: center;
     }
@@ -448,9 +462,13 @@
         text-align: center;
         margin-left: -35px;
     }
+    .appBtnWrap {
+        margin: 30px 0;
+    }
     .appwrap {
         border-radius: unset;
         background-position: center;
+        height: unset;
     }
     .NicheMobile {
         display: block;
@@ -468,7 +486,7 @@
         width: 66px;
     }
     .appContent {
-        padding: 20px 40px;
+        padding: 20px 45px;
     }
     .phoneApp {
         margin-top: -45px;
@@ -530,13 +548,13 @@
         height: 250px;
     }
     .bigItem h1 {
-        top: 14%;
+        top: 20%;
         font-size: 65px;
         text-align: center;
         left: 22%;
     }
     .orderHeading {
-        top: 40%;
+        top: 50%;
         left: 22%;
     }
     .aboutFlex {
@@ -578,9 +596,13 @@
         background-repeat: no-repeat;
         margin-bottom: 0;
     }
+    .appBtnWrap {
+        margin: 30px 0;
+    }
     .appwrap {
         border-radius: unset;
         background-position: center;
+        height: unset;
     }
     .NicheMobile {
         display: block;
@@ -598,7 +620,7 @@
         width: 62px;
     }
     .appContent {
-        padding: 20px 40px;
+        padding: 0 40px;
     }
     .phoneApp {
         margin-top: -45px;
